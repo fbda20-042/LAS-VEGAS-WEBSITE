@@ -1,0 +1,210 @@
+mystyle.css
+body{
+
+background-color:blue;
+
+}
+h1,h4{
+	text-align:center;
+	
+}
+h2{
+	text-align:left;
+}
+.navbar {
+  overflow: hidden;
+	 background-color:rgba(176 224 230);
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+.navbar a {
+  float: left;
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 45px;
+  text-decoration: none;
+
+}
+.navbar a:hover{
+	 background-color:white;
+	 color:black;
+	 font-size: 20px;
+	 margin-top:5px;
+	 }
+.navbar a img {
+opacity:0.3;
+}
+.search-box{
+margin-top: 4%;
+margin-left:70%;
+}
+
+
+body .Updates{
+  float: left;
+  width: 50%;
+  padding: 0px;
+  height:16em;
+  text-align: center;
+  align-items: center;
+  background-color:rgba(0,0,0,.1);
+  margin-left:45px;
+  margin-top:19px;
+
+}
+body .side{
+  float: right;
+  width: 40%;
+  padding: 0px;
+  height:10em;
+  background-color:white;
+  text-align: center;
+  align-items: center;
+  margin-right:40px;
+  margin-top:25px;
+
+}
+.footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 17%;
+  width: 100%;
+	 background-color:rgba(176 224 230);
+  color: black;
+  text-align: center;
+ 
+
+}
+
+body .right{
+  float: right;
+  width: 25%;
+  padding: 0px;
+  height:100%;
+  text-align: center;
+  align-items: center;
+  background-color:rgba(0,0,0,.1);
+  margin-right:0px;
+  margin-top:20px;
+
+}
+.topic{
+	align-items:center;
+	width: 90%;
+	height:10%;
+	background-color: #fffff00;
+	margin-bottom:110px;
+	margin-top:3px;
+	
+}
+.topic img {
+	width:90%;
+	height:10%;
+	margin-top:5px;
+}
+body .content-holder{
+  float: left;
+  width: 70%;
+  padding: 0px;
+  height:100%;
+  text-align: center;
+  align-items: center;
+  background-color:white;
+  margin-left:5px;
+  margin-top:15px;
+
+}
+.content{
+	width:90%;
+	height:6%;
+	background-color:#fffff00;
+	margin-bottom:110px;
+}
+.active {
+  background-color: rgba(176 224 230);
+  border: none;
+  color: white;
+  width: 80px;
+  padding: 15px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 2px;
+  cursor: pointer;
+}
+.signin{
+	text-decoration:none;
+	font-weight:bold;
+	color:blue;
+	
+}
+
+
+
+.month {
+  padding: 10px 0px;
+  width: 100%;
+  background: #1abc9c;
+  text-align: center;
+}
+
+.month ul {
+  margin: 0;
+  padding: 0;
+}
+
+.month ul li {
+  color: white;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.month .prev {
+  float: left;
+  padding-top: 10px;
+}
+
+.month .next {
+  float: right;
+  padding-top: 10px;
+}
+
+.weekdays {
+  margin: 0;
+  padding: 5px 0;
+  background-color: #ddd;
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 10%;
+  color: #666;
+  text-align: center;
+}
+
+.days {
+  padding: 10px 0;
+  background: #eee;
+  margin: 0;
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 10%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size:10px;
+  color: #777;
+}
+
+.days li .current {
+  padding: 5px;
+  background: #1abc9c;
+  color: white !important
+}
